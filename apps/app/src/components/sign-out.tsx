@@ -1,8 +1,8 @@
 "use client";
 
-import { createClient } from "@v1/supabase/client";
-import { Button } from "@v1/ui/button";
-import { Icons } from "@v1/ui/icons";
+import { createClient } from "@x0/supabase/client";
+import { Button } from "@x0/ui/button";
+import { Icons } from "@x0/ui/icons";
 
 export function SignOut() {
   const supabase = createClient();

@@ -1,4 +1,9 @@
 {
-  "name": "@v1/typescript",
-  "private": true
+  "name": "@x0/typescript",
+  "private": true,
+  "version": "0.0.1",
+  "main": "index.js",
+  "files": [
+    "*.json"
+  ]
 }

@@ -1,9 +1,9 @@
 import * as Sentry from "@sentry/nextjs";
-import { setupAnalytics } from "@v1/analytics/server";
-import { ratelimit } from "@v1/kv/ratelimit";
-import { logger } from "@v1/logger";
-import { getUser } from "@v1/supabase/queries";
-import { createClient } from "@v1/supabase/server";
+import { setupAnalytics } from "@x0/analytics/server";
+import { ratelimit } from "@x0/kv/ratelimit";
+import { logger } from "@x0/logger";
+import { getUser } from "@x0/supabase/queries";
+import { createClient } from "@x0/supabase/server";
 import {
   DEFAULT_SERVER_ERROR_MESSAGE,
   createSafeActionClient,
