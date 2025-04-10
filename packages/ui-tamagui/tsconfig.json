@@ -1,0 +1,9 @@
+{
+  "extends": "@x0/typescript/react-library.json",
+  "include": ["**/*.ts", "**/*.tsx", "../config/src/tamagui.config.ts"],
+  "compilerOptions": {
+    "composite": true,
+    "jsx": "react-jsx"
+  },
+  "references": []
+}
